@@ -59,6 +59,9 @@ section {
 a:link{
     text-decoration: none;
 }
+.hyperlink:link{
+    color: black;
+}
 .hyperlink:visited{
     color: black;
 }
