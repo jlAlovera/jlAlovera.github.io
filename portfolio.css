@@ -71,6 +71,7 @@ a:link{
     border-bottom: 2px solid black;
 }
 
+
 h2 {
     text-align: center;
     color: #8B4513;
@@ -123,7 +124,7 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border-color: #6a11cb;
+    border-color: #8B4513;
     outline: none;
 }
 
