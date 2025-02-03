@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #D2B48C;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    background: linear-gradient(to right, #8B4513, purple,  green);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+    to {
+        background-position: 200%;
+    }
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: black;
+}
+#jokeContainer {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
